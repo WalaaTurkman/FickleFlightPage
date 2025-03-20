@@ -35,8 +35,8 @@ export default function Footer() {
             </p>
             <div className="social-icons">
               <img src="/assets/headerimg/Footericon/facebook-with-circle.png" className="facebookicon" alt="Facebook" />
-              <img src={InstagramIcon} className="instaicon" alt="Instagram" />
-              <img src={TwitterIcon} className="twitericon" alt="Twitter" />
+              <img src="/assets/headerimg/Footericon/InstagramIcon" className="instaicon" alt="Instagram" />
+              <img src="/assets/headerimg/Footericon/TwitterIcon" className="twitericon" alt="Twitter" />
             </div>
           </Col>
 
