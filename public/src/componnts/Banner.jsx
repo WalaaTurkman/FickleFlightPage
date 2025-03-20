@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 import BannerForm from './BannerForm'; // Ensure BannerForm is located in the same folder or correct relative path
 
 // Import images
-import bannerBackImage from 'src/assets/headerimg/bannerback.png'; // Adjust the path as needed
+import bannerBackImage from '../assets/headerimg/bannerback.png'; // Adjust the path as needed
 
 function Banner() {
   return(
