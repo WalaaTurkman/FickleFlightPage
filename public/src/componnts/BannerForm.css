@@ -1,0 +1,59 @@
+ 
+.SearchForm{
+    position: absolute; 
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* يضبط التمركز تمامًا */
+    text-align: center;
+    background-color: #FFF;
+    color: black;
+    width: 75%;
+    height: 158px;
+    border-radius:10px ;
+    gap: 5px;
+    padding: 20px;
+    display: flex;
+    margin-top: 14px;
+    
+}
+.SearchFormh1{
+    font-family: "Roboto";
+    font-weight: 700;
+    size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+}
+.SearchFormchooise{
+    margin-left: 55%;
+    padding-left:5px ;
+}
+
+.SearchFormchooise2{
+    
+    padding-left:10px ;
+}
+.INPUTFORM{
+    position: absolute; 
+    top: 79%; 
+    left: 700px;
+    transform: translate(-50%, -50%); /* يضبط التمركز تمامًا */
+    text-align: center;
+   
+    color: black;
+    width: 87%;
+    height: 158px;
+    border-radius:10px ;
+    
+    
+    display: flex;
+    margin-top: 14px;
+}
+.formbutton{
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 6px;
+  letter-spacing: 0.46px ;
+  
+
+}

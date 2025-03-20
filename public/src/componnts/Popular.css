@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&display=swap');
+
+
+.holiday-card {
+    position: relative;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+
+.City-Image {
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.holiday-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* تأكد أن النصوص تبدأ من اليسار */
+}
+.City{
+    width:172.49147033691406px ;
+    height: 23px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+}
+
+.holiday-price {
+    position: absolute;
+    width:52.53242111206055px ;
+    height: 19px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    top: 8px;
+    left: 222.88px;
+    font-size: 16px;
+}
+.dollarNumber{
+    font-family: 'Baloo Bhai 2';
+    width:100px ;
+    height:38px ;
+    top: 29px;
+    left:184.49px ;
+    margin-left: 176px;
+    margin-top: -16px;
+    line-height: 38px;
+}

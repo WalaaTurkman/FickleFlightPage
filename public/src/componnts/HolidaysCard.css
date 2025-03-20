@@ -1,0 +1,57 @@
+/* تنسيق البطاقة */
+.Recommended-Holidays {
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+
+}
+
+.Recommended-Holidays:hover {
+    transform: scale(1.03);
+}
+
+/* الصورة داخل البطاقة */
+.Recommended-Holidays .cardimage {
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* العنوان + السعر */
+.title-price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* لون السعر */
+.Price {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* تنسيق مدة الرحلة */
+.duration-section p {
+    font-size: 0.9rem;
+    color: gray;
+    margin-top: -10px;
+}
+
+/* تنسيق القسم الرئيسي */
+.container {
+    margin-top: 20px;
+}
+
+/* جعل التصميم متجاوبًا */
+@media (max-width: 768px) {
+    .title-price-section {
+        font-size: 0.9rem;
+    }
+
+    .Price {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,92 @@
+.subscribe-container {
+    position: relative; 
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Bannerbackground {
+    width: 100%;
+    height: auto;
+  }
+  .form-header{
+    font-family: "Roboto";
+    font-weight: 700;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 10;
+    width: 509px;
+    height:63px ;
+    gap: 7px;
+    text-align: center;
+
+  }
+  .form-header h1{
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 4%;
+  }
+  .form-header p{
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  
+  .formcard {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 509px;
+    height: 302px;
+    text-align: center;
+  }
+  
+  .form-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #114e8b;
+  }
+  
+  .form-subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .form-sub{
+    width:449px ;
+    height:34px ;
+    left: 0%;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    margin-left: -100px;
+    
+  }
+  
+  .submit-btn {
+    width: 164px;
+    height:56px ;
+    background-color: #F99A0E;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: -295px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #d78b00;
+  }
+  .forminput{
+    width:449px ;
+  }
