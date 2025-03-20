@@ -1,7 +1,5 @@
 import HotelCard from "./HotelCard";
-
 import './Homecontent.css'
-import { Col, Container, Row } from "react-bootstrap";
 import HolidaysCard from "./HolidaysCard";
 import Popular from "./Popular";
 import RecentSearches from './Recent-Searches';
@@ -44,32 +42,32 @@ function Homecontent() {
 >
     <Preparetrip 
         iconTitle="Hotel"
-        iconsrc="src\assets\Icons\HotelIcon.png"
+        iconsrc="src/assets/Icons/HotelIcon.png"
 
     />
     <Preparetrip 
         iconTitle="Attractions"
-        iconsrc="src\assets\Icons\AttractionsIcon.png"
+        iconsrc="src/assets/Icons/AttractionsIcon.png"
 
     />
     <Preparetrip 
         iconTitle="Eats"
-        iconsrc="src\assets\Icons\EatsIcon.png"
+        iconsrc="src/assets/Icons/EatsIcon.png"
 
     />
     <Preparetrip 
         iconTitle="Commute"
-        iconsrc="src\assets\Icons\Commuteicon.png"
+        iconsrc="src/assets/Icons/Commuteicon.png"
 
     />
     <Preparetrip 
         iconTitle="Taxi"
-        iconsrc="src\assets\Icons\TaxiIcon.png"
+        iconsrc="src/assets/Icons/TaxiIcon.png"
 
     />
     <Preparetrip 
         iconTitle="Movies"
-        iconsrc="src\assets\Icons\Moviesicon.png"
+        iconsrc="src/assets/Icons/Moviesicon.png"
 
     />
 
@@ -85,7 +83,7 @@ function Homecontent() {
     <h1 className="Hotel-Header-h1-1"style={{width:"1048.6192626953125px",height:"35px"}}>Most Popular Destinations</h1>
     <section className="Hotel-Header-2" style={{width:"231.3806915283203px",height:"24px",gap:"10px"}}>
     <p className="Hotel-Header-p-2 small" style={{width:"197.32765197753906px",height:"21px"}}>View all destinations</p>
-    <img className="Arrow-Icon" src="src\assets\headerimg\ArrowIcon.png" width="24" height="24" alt="Arrow Icon" />
+    <img className="Arrow-Icon" src="src/assets/headerimg/ArrowIcon.png" width="24" height="24" alt="Arrow Icon" />
 </section>
 </section>
 
@@ -93,12 +91,12 @@ function Homecontent() {
      
     <Popular imgSrc="src/assets/headerimg/ParisImage.png" city="Paris" price="699" />
 
-    <Popular imgSrc="src\assets\headerimg\GreeceImage.png" city="Greece" price="1079" />
+    <Popular imgSrc="src/assets/headerimg/GreeceImage.png" city="Greece" price="1079" />
 
-    <Popular imgSrc="src\assets\headerimg\NorwayImage.png" city="Norway" price="895" />
+    <Popular imgSrc="src/assets/headerimg/NorwayImage.png" city="Norway" price="895" />
 
 
-    <Popular imgSrc="src\assets\headerimg\TuscanyImage.png" city="Tuscany" price="1245" />
+    <Popular imgSrc="src/assets/headerimg/TuscanyImage.png" city="Tuscany" price="1245" />
 
 </section>
 
@@ -113,16 +111,16 @@ function Homecontent() {
       </div>
       <div className="d-flex flex-wrap justify-content-between" style={{margin:"40px"}}>
     <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Bali" image="src\assets\headerimg\unsplash.png" price="899" duration="4D3N" />
+      <HolidaysCard title="Bali" image="src/assets/headerimg/unsplash.png" price="899" duration="4D3N" />
     </div>
     <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Swiss" image="src\assets\headerimg\SwitzerlandImage.png" price="900" duration="6D5N" />
+      <HolidaysCard title="Swiss" image="src/assets/headerimg/SwitzerlandImage.png" price="900" duration="6D5N" />
     </div>
     <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Boracay" image="src\assets\headerimg\BoracayImage.png" price="699" duration="5D4N" />
+      <HolidaysCard title="Boracay" image="src/assets/headerimg/BoracayImage.png" price="699" duration="5D4N" />
     </div>
     <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Palawan" image="src\assets\headerimg\PalawanImage.png" price="789" duration="4D3N" />
+      <HolidaysCard title="Palawan" image="src/assets/headerimg/PalawanImage.png" price="789" duration="4D3N" />
     </div>
     </div>
 </div>
@@ -131,7 +129,7 @@ function Homecontent() {
     <h1 className="Hotel-Header-h1"style={{width:"1105.3406982421875px",height:"35px"}}>Popular Stays</h1>
     <section className="Hotel-Header" style={{width:"174.65933227539062px",height:"24px"}}>
     <p className="Hotel-Header-p" style={{width:"140.65933227539062px",height:"21px"}}>View all stays</p>
-    <img className="Arrow-Icon" src="src\assets\headerimg\ArrowIcon.png" width="24" height="24" alt="Arrow Icon" />
+    <img className="Arrow-Icon" src="src/assets/headerimg/ArrowIcon.png" width="24" height="24" alt="Arrow Icon" />
     </section>
     </section>
     
@@ -145,21 +143,21 @@ function Homecontent() {
                 RateNumber="4.9"
                 Reviews="60"/>
             
-            <HotelCard imgsrc="src\assets\headerimg\Discovery-Shores-Image.png"
+            <HotelCard imgsrc="src/assets/headerimg/Discovery-Shores-Image.png"
                 cardgraph="2-Story beachfront suite"
                 TitleCard="Discovery Shores"
                 TextCard="360"
                 RateNumber="4.8"
                 Reviews="116"/>
             
-            <HotelCard imgsrc="src\assets\headerimg\Arctic-Hut-Image.png"
+            <HotelCard imgsrc="src/assets/headerimg/Arctic-Hut-Image.png"
                 cardgraph="Single deluxe hut"
                 TitleCard="Arctic Hut "
                 TextCard="420"
                 RateNumber="4.7"
                 Reviews="78"/>
             
-            <HotelCard imgsrc="src\assets\headerimg\Lake-Louise-Image.png"
+            <HotelCard imgsrc="src/assets/headerimg/Lake-Louise-Image.png"
                 cardgraph="Deluxe King Room"
                 TitleCard="Lake Louise Inn"
                 TextCard="244"
