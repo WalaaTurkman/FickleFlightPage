@@ -1,9 +1,14 @@
 import Container from "react-bootstrap/Container";
-
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import "./Footer.css";
+
+// استيراد الصور
+import FooterLogo from "../assets/headerimg/footerlogo.png";
+import FacebookIcon from "../assets/headerimg/Footericon/facebook-with-circle.png";
+import InstagramIcon from "../assets/headerimg/Footericon/instagram-with-circle.png";
+import TwitterIcon from "../assets/headerimg/Footericon/twitter-with-circle.png";
 
 export default function Footer() {
   return (
@@ -15,10 +20,10 @@ export default function Footer() {
       }}
     >
       <Container>
-        <Row className=" align-items-center">
+        <Row className="align-items-center">
           <Col md={3} className="footer-sec1">
             <img
-              src="src/assets/headerimg/footerlogo.png"
+              src={FooterLogo}
               width="150"
               height="30"
               className="footer-logo"
@@ -30,26 +35,13 @@ export default function Footer() {
               our online shop.
             </p>
             <div className="social-icons">
-              <img
-                src="src/assets/headerimg/Footericon/facebook-with-circle.png"
-                className="facebookicon"
-                alt="Facebook"
-              />
-              <img
-                src="src/assets/headerimg/Footericon/instagram-with-circle.png"
-                className="instaicon"
-                alt="Instagram"
-              />
-              <img
-                src="src/assets/headerimg/Footericon/twitter-with-circle.png"
-                className="twitericon"
-                alt="Twitter"
-              />
+              <img src={FacebookIcon} className="facebookicon" alt="Facebook" />
+              <img src={InstagramIcon} className="instaicon" alt="Instagram" />
+              <img src={TwitterIcon} className="twitericon" alt="Twitter" />
             </div>
           </Col>
-          
 
-          <Col md={9} >
+          <Col md={9}>
             <Row>
               <Col md={3}>
                 <div className="footer-section">

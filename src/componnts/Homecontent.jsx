@@ -1,173 +1,108 @@
 import HotelCard from "./HotelCard";
-import './Homecontent.css'
+import './Homecontent.css';
 import HolidaysCard from "./HolidaysCard";
 import Popular from "./Popular";
 import RecentSearches from './Recent-Searches';
 import Preparetrip from "./Preparetrip";
+
+// استيراد الصور
+import DurationIcon from "../assets/headerimg/DurationIcon.png";
+import ArrowIcon from "../assets/headerimg/ArrowIcon.png";
+import HotelIcon from "../assets/Icons/HotelIcon.png";
+import AttractionsIcon from "../assets/Icons/AttractionsIcon.png";
+import EatsIcon from "../assets/Icons/EatsIcon.png";
+import CommuteIcon from "../assets/Icons/Commuteicon.png";
+import TaxiIcon from "../assets/Icons/TaxiIcon.png";
+import MoviesIcon from "../assets/Icons/Moviesicon.png";
+import ParisImage from "../assets/headerimg/ParisImage.png";
+import GreeceImage from "../assets/headerimg/GreeceImage.png";
+import NorwayImage from "../assets/headerimg/NorwayImage.png";
+import TuscanyImage from "../assets/headerimg/TuscanyImage.png";
+import BaliImage from "../assets/headerimg/unsplash.png";
+import SwissImage from "../assets/headerimg/SwitzerlandImage.png";
+import BoracayImage from "../assets/headerimg/BoracayImage.png";
+import PalawanImage from "../assets/headerimg/PalawanImage.png";
+import MatterhornImage from "../assets/headerimg/Matterhorn-Suites-Image.png";
+import DiscoveryImage from "../assets/headerimg/Discovery-Shores-Image.png";
+import ArcticImage from "../assets/headerimg/Arctic-Hut-Image.png";
+import LakeLouiseImage from "../assets/headerimg/Lake-Louise-Image.png";
+
 function Homecontent() {
   return (
-<div>
+    <div>
 
+      <p className="Recent-Searches-Title">Recent Searches</p>
+      <section className="Recent-Searches-section d-flex align-items-center"
+        style={{ width: "1280px", height: "112px", gap: "15px" }}>
+        <RecentSearches
+          TitleForm="SIN"
+          TitleForm2="Tokyo"
+          DatePlane="7 Sep 2021"
+        />
+        <RecentSearches
+          TitleForm="MY"
+          TitleForm2="DUB"
+          DatePlane="9 Sep 2021"
+        />
+      </section>
 
+      <p className="Prepare-trip-Title">Prepare for your trip</p>
+      <section className="Prepare-trip-section d-flex align-items-center ms-5"
+        style={{ width: "1280px", height: "112px", gap: "15px" }}>
+        <Preparetrip iconTitle="Hotel" iconsrc={HotelIcon} />
+        <Preparetrip iconTitle="Attractions" iconsrc={AttractionsIcon} />
+        <Preparetrip iconTitle="Eats" iconsrc={EatsIcon} />
+        <Preparetrip iconTitle="Commute" iconsrc={CommuteIcon} />
+        <Preparetrip iconTitle="Taxi" iconsrc={TaxiIcon} />
+        <Preparetrip iconTitle="Movies" iconsrc={MoviesIcon} />
+      </section>
 
-<p className="Recent-Searches-Title">Recent Searches</p>
-<section className="Recent-Searches-section  d-flex align-items-center"
- style={{width:"1280px",height:"112px",gap:"15px"}}
->
-<RecentSearches 
-        TitleForm="SIN"
-        TitleForm2="Tokyo"
-        DatePlane="7 Sep 2021"
-        style=
-        {{width:"632.5px",
-            height:"112px"
-            ,gap:"21px",
-    
-        }}
+      <p className="Hotel-Header-p-1 mt-5">Plan your next trip</p>
 
-/>
-<RecentSearches 
-        TitleForm="MY"
-        TitleForm2="DUB"
-        DatePlane="9 sep 2021"
-/>
+      <section className="Hotel-Header-1 ms-3 mt-3">
+        <h1 className="Hotel-Header-h1-1">Most Popular Destinations</h1>
+        <section className="Hotel-Header-2">
+          <p className="Hotel-Header-p-2 small">View all destinations</p>
+          <img className="Arrow-Icon" src={ArrowIcon} width="24" height="24" alt="Arrow Icon" />
+        </section>
+      </section>
 
+      <section className="City-Holidays">
+        <Popular imgSrc={ParisImage} city="Paris" price="699" />
+        <Popular imgSrc={GreeceImage} city="Greece" price="1079" />
+        <Popular imgSrc={NorwayImage} city="Norway" price="895" />
+        <Popular imgSrc={TuscanyImage} city="Tuscany" price="1245" />
+      </section>
 
-
-</section>
-
-<p className="Prepare-trip-Title">Prepare for your trip</p>
-<section className="Prepare-trip-section  d-flex align-items-center ms-5"
- style={{width:"1280px",height:"112px",gap:"15px"}}
->
-    <Preparetrip 
-        iconTitle="Hotel"
-        iconsrc="src/assets/Icons/HotelIcon.png"
-
-    />
-    <Preparetrip 
-        iconTitle="Attractions"
-        iconsrc="src/assets/Icons/AttractionsIcon.png"
-
-    />
-    <Preparetrip 
-        iconTitle="Eats"
-        iconsrc="src/assets/Icons/EatsIcon.png"
-
-    />
-    <Preparetrip 
-        iconTitle="Commute"
-        iconsrc="src/assets/Icons/Commuteicon.png"
-
-    />
-    <Preparetrip 
-        iconTitle="Taxi"
-        iconsrc="src/assets/Icons/TaxiIcon.png"
-
-    />
-    <Preparetrip 
-        iconTitle="Movies"
-        iconsrc="src/assets/Icons/Moviesicon.png"
-
-    />
-
-
-
-</section>
-
-
-<p className="Hotel-Header-p-1 mt-5" style={{width:"1048.6192626953125px",height:"21px"}}>Plan your next trip</p>
-
-<section className="Hotel-Header-1  ms-3 mt-3" style={{width:"1048.6192626953125px",height:"62px"}}>
-    
-    <h1 className="Hotel-Header-h1-1"style={{width:"1048.6192626953125px",height:"35px"}}>Most Popular Destinations</h1>
-    <section className="Hotel-Header-2" style={{width:"231.3806915283203px",height:"24px",gap:"10px"}}>
-    <p className="Hotel-Header-p-2 small" style={{width:"197.32765197753906px",height:"21px"}}>View all destinations</p>
-    <img className="Arrow-Icon" src="src/assets/headerimg/ArrowIcon.png" width="24" height="24" alt="Arrow Icon" />
-</section>
-</section>
-
-<section className="City-Holidays  " style={{width:"1280px", height:"497px",gap:"20px"}}>
-     
-    <Popular imgSrc="src/assets/headerimg/ParisImage.png" city="Paris" price="699" />
-
-    <Popular imgSrc="src/assets/headerimg/GreeceImage.png" city="Greece" price="1079" />
-
-    <Popular imgSrc="src/assets/headerimg/NorwayImage.png" city="Norway" price="895" />
-
-
-    <Popular imgSrc="src/assets/headerimg/TuscanyImage.png" city="Tuscany" price="1245" />
-
-</section>
-
-
-
-
-
-<div className="mt-4 " style={{marginBottom:"140px"}}>
-      <div className="d-flex justify-content-between align-items-center mb-3">
-        <h4 className="fw-bold ms-5" >Recommended Holidays</h4>
-        <a href="#" className="text-primary">View all holidays →</a>
+      <div className="mt-4" style={{ marginBottom: "140px" }}>
+        <div className="d-flex justify-content-between align-items-center mb-3">
+          <h4 className="fw-bold ms-5">Recommended Holidays</h4>
+          <a href="#" className="text-primary">View all holidays →</a>
+        </div>
+        <div className="d-flex flex-wrap justify-content-between" style={{ margin: "40px" }}>
+          <HolidaysCard title="Bali" image={BaliImage} price="899" duration="4D3N" />
+          <HolidaysCard title="Swiss" image={SwissImage} price="900" duration="6D5N" />
+          <HolidaysCard title="Boracay" image={BoracayImage} price="699" duration="5D4N" />
+          <HolidaysCard title="Palawan" image={PalawanImage} price="789" duration="4D3N" />
+        </div>
       </div>
-      <div className="d-flex flex-wrap justify-content-between" style={{margin:"40px"}}>
-    <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Bali" image="src/assets/headerimg/unsplash.png" price="899" duration="4D3N" />
-    </div>
-    <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Swiss" image="src/assets/headerimg/SwitzerlandImage.png" price="900" duration="6D5N" />
-    </div>
-    <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Boracay" image="src/assets/headerimg/BoracayImage.png" price="699" duration="5D4N" />
-    </div>
-    <div className="mb-3" style={{ width: '288px',height:"242px" }}>
-      <HolidaysCard title="Palawan" image="src/assets/headerimg/PalawanImage.png" price="789" duration="4D3N" />
-    </div>
-    </div>
-</div>
 
-    <section className="Hotel-Header  ms-3 mt-1" style={{width:"1280px",height:"35px"}}>
-    <h1 className="Hotel-Header-h1"style={{width:"1105.3406982421875px",height:"35px"}}>Popular Stays</h1>
-    <section className="Hotel-Header" style={{width:"174.65933227539062px",height:"24px"}}>
-    <p className="Hotel-Header-p" style={{width:"140.65933227539062px",height:"21px"}}>View all stays</p>
-    <img className="Arrow-Icon" src="src/assets/headerimg/ArrowIcon.png" width="24" height="24" alt="Arrow Icon" />
-    </section>
-    </section>
-    
+      <section className="Hotel-Header ms-3 mt-1">
+        <h1 className="Hotel-Header-h1">Popular Stays</h1>
+        <section className="Hotel-Header">
+          <p className="Hotel-Header-p">View all stays</p>
+          <img className="Arrow-Icon" src={ArrowIcon} width="24" height="24" alt="Arrow Icon" />
+        </section>
+      </section>
 
-    <section className="hotel  mt-3 "style={{width:"1280px", height:"497px",gap:"20px"}}>
-            
-            <HotelCard imgsrc="src/assets/headerimg/Matterhorn-Suites-Image.png"
-                cardgraph="Entire bungalow"
-                TitleCard="Matterhorn Suites"
-                TextCard="575"
-                RateNumber="4.9"
-                Reviews="60"/>
-            
-            <HotelCard imgsrc="src/assets/headerimg/Discovery-Shores-Image.png"
-                cardgraph="2-Story beachfront suite"
-                TitleCard="Discovery Shores"
-                TextCard="360"
-                RateNumber="4.8"
-                Reviews="116"/>
-            
-            <HotelCard imgsrc="src/assets/headerimg/Arctic-Hut-Image.png"
-                cardgraph="Single deluxe hut"
-                TitleCard="Arctic Hut "
-                TextCard="420"
-                RateNumber="4.7"
-                Reviews="78"/>
-            
-            <HotelCard imgsrc="src/assets/headerimg/Lake-Louise-Image.png"
-                cardgraph="Deluxe King Room"
-                TitleCard="Lake Louise Inn"
-                TextCard="244"
-                RateNumber="4.6"
-                Reviews="63"
-                />
-    </section>
-        
-</div>
+      <section className="hotel mt-3">
+        <HotelCard imgsrc={MatterhornImage} cardgraph="Entire bungalow" TitleCard="Matterhorn Suites" TextCard="575" RateNumber="4.9" Reviews="60" />
+        <HotelCard imgsrc={DiscoveryImage} cardgraph="2-Story beachfront suite" TitleCard="Discovery Shores" TextCard="360" RateNumber="4.8" Reviews="116" />
+        <HotelCard imgsrc={ArcticImage} cardgraph="Single deluxe hut" TitleCard="Arctic Hut " TextCard="420" RateNumber="4.7" Reviews="78" />
+        <HotelCard imgsrc={LakeLouiseImage} cardgraph="Deluxe King Room" TitleCard="Lake Louise Inn" TextCard="244" RateNumber="4.6" Reviews="63" />
+      </section>
 
+    </div>
   );
 }
 

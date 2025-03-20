@@ -6,6 +6,11 @@ import Col from "react-bootstrap/Col";
 
 import "./Header.css";
 
+// استيراد الصور
+import Logo from "../assets/headerimg/image.png";
+import BellIcon from "../assets/headerimg/bell.png";
+import ProfilePic from "../assets/headerimg/profilepic.png";
+
 export default function Header() {
   return (
     <Navbar expand="lg" className="headernavbar">
@@ -15,7 +20,7 @@ export default function Header() {
           <Col md="8">
             <Navbar.Brand href="#home">
               <img
-                src="src/assets/headerimg/image.png"
+                src={Logo}
                 width="150"
                 height="30"
                 className="d-inline-block align-top"
@@ -40,14 +45,14 @@ export default function Header() {
           {/* الأيقونات */}
           <Col md="2" className="text-end">
             <img
-              src="src/assets/headerimg/bell.png"
+              src={BellIcon}
               width="30"
               height="30"
               className="me-3"
               alt="Notifications"
             />
             <img
-              src="src/assets/headerimg/profilepic.png"
+              src={ProfilePic}
               width="30"
               height="30"
               alt="Profile"
