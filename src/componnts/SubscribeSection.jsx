@@ -12,7 +12,7 @@ export default function SubscribeSection() {
       {/* الخلفية */}
       <Image 
         className='Bannerbackground'
-        src="src/assets/headerimg/Subscribesectionbackground.png"
+        src="/assets/headerimg/Subscribesectionbackground.png"
         fluid
       />
         <Row className="form-header">
