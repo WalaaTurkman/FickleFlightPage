@@ -1,0 +1,88 @@
+
+.footer-sec1{
+    border-right: 2px solid rgba(255, 255, 255, 0.5); /* خط بلون فاتح */
+  height: 100px; /* ارتفاع الخط */
+}
+.footer-logo{
+    width: 174px;
+    height: 33px;
+
+}
+.footer-text{
+    width: 592px ;
+    height: 54px ;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    line-height:27px ;
+    letter-spacing:0% ;
+    margin-top: 15px;
+}
+
+.footer-section{
+    width:592px ;
+    height:145px ;
+    gap:14px ; 
+    margin-left: 350px;
+}
+
+
+.social-icons{
+    width:130px ;
+    height: 30px;
+}
+.facebookicon{
+    width:30px ;
+    height:30px ;
+    top: 115px;
+    margin-right: 20px;
+
+}
+.instaicon{
+    width:30px ;
+    height:30px ;
+    top:115px;
+    left: 50px ;
+    margin-right: 20px;
+   
+    
+}
+.twitericon{
+    width:30px ;
+    height:30px ;
+    top: 115px;
+    left: 50px ;
+    
+
+}
+
+
+.footer-section{
+    width:592px ;
+    height:145px ;
+    color: #fff;
+}
+.footer-title{
+    width:174.7222137451172px ;
+    height:27px ;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size:20px;
+    color: #fff;
+    line-height:27px ;
+    letter-spacing:0% ;
+
+}
+.footer-link{
+    width:135.66664123535156px;
+    height:19px ;
+    top: 47.76px ;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size:16px;
+    color: #fff;
+    line-height:100% ;
+    letter-spacing:0% ;
+
+}

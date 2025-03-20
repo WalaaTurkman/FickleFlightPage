@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.Card-Search {
+    width: 620px;
+    height: 112px;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.Card-Search-Title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.city-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1262AE;
+    margin: 0;
+    margin-right: 150px;
+    margin-left:150px ;
+}
+
+.Card-Search-Icon {
+    width: 117.3505859375px;
+    height: 24px;
+}
+
+.Card-Search-Date {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+}
