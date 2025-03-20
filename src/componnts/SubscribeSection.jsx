@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import './SubscribeSection.css';
+import background from '../assets/headerimg/Subscribesectionbackground.png';
 
 export default function SubscribeSection() {
   return (
@@ -12,9 +13,10 @@ export default function SubscribeSection() {
       {/* الخلفية */}
       <Image 
         className='Bannerbackground'
-        src="/assets/headerimg/Subscribesectionbackground.png"
+        src={background}
         fluid
       />
+
         <Row className="form-header">
         <h4 className="form-title">SUBSCRIBE TO OUR NEWSLETTER</h4>
         <p className="form-subtitle">Get weekly updates</p>
