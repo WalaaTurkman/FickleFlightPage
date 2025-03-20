@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.Preparetrip-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* توسيط العناصر أفقياً */
+    justify-content: center; /* توسيط العناصر عمودياً */
+    text-align: center;
+    width: 1280px; /* حدد عرضًا ثابتًا لضمان عدم اختلاف المسافات */
+}
+
+
+.Icon {
+width: 65.38703918457031px; 
+height: 65.38703918457031px;
+display: block;
+}
+
+.Preparetrip-Title{
+    width:39px ;
+    height:18px ;
+    margin: 7px 0 0 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    color: #8E8E94;
+    text-align: center;
+}

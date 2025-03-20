@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.BannerContainer {
+    position: relative; /* يجعل العنصر الأب يتحكم في الطبقات */
+    width: 100%;
+    height: auto;
+  }
+  
+  .BannerBackground {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Title {
+    position: absolute; /* يجعل النص يطفو فوق الصورة */
+    top: 50%; /* يحدد مكانه في منتصف الصورة */
+    left: 50%;
+    transform: translate(-50%, -50%); /* يضبط التمركز تمامًا */
+    color: white; /* يجعل النص بلون أبيض ليكون واضحًا */
+    text-align: center; /* يجعل النصوص متناسقة في الوسط */
+    
+  }
+  .Title h1{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 800;
+    size: 61px;
+    height: 67px;
+  }
+  .Title p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    size: 24px;
+    height: 32px;
+  }
+
+  
+ .SearchFormh1{
+  font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    margin:0;
+ }
